@@ -1,2 +1,86 @@
 *{margin: 0;padding: 0}
 
+html{
+	width:100%;
+	height:auto;
+	border-top:10px solid #E7E7E7;
+	font-family: ubuntu, sans-serif;
+}
+
+#thecontainer{
+	width:100%;
+}
+
+#logohead{
+	width:796px;
+	padding: 10px 114px 10px 114px;
+	height:auto;
+}
+
+#svnitlogo , #acmlogo{
+	height:100px;
+	width:100px;
+	float:left;
+}
+
+#svnitlogo{
+	background:url('../img/svnitlogo.jpg');
+}
+
+#acmlogo{
+	background:url('../img/acm-logo.jpg');
+}
+
+#acmtext{
+	color:#4FA1ED;
+	text-align:center;
+	position:relative;
+	font-weight: 400;
+	font-size: 50px;
+	padding:0px 25px 0px 25px;
+	line-height: 100px;
+	float:left;
+}
+
+#headerblock{
+	width:796px;
+}
+
+#navigationpanel
+{
+	margin-top:10px;
+	list-style-type:none;
+}
+#navigationpanel li{
+	padding:17px 20px 10px 20px;
+	display:inline;
+}
+
+#navigationpanel li a{
+	font-size:25px;
+	color:#A7A7A7;
+	text-decoration:none;
+}
+
+#navigationpanel li.active{
+	background:#EEEEEE;
+	border-top:3px solid orange;
+}
+
+.clear{
+	clear:both;
+}
+
+.fullhr{
+	position:absolute;
+	left:0;
+	right:0;
+	height:0px;
+	border:1px solid #E7E7E7;
+}
+
+.middle{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}

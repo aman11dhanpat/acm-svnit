@@ -7,22 +7,28 @@
 		<meta charset="utf-8" />
 		<link href="css/style.css" rel="stylesheet" />
 		<title>ACM NIT Surat Chapter | Home</title>
-		<script src="//use.edgefonts.net/ubuntu:n3,i3,n4,i4,n5,i5,n7,i7:all.js"></script> 
+		<script src="//use.edgefonts.net/ubuntu:n3,i3,n4,i4,n5,i5,n7,i7:all.js"></script>
 	</head>
 	<body>
 		<div id="thecontainer">
-			<div id="headerblock">
-				<div id="logoandthings">
-					<span id="logosvnit"></span>
-					<span id="logotext"></span>
-					<span id="logochapter"></span>
+			<div id="logohead" class="middle">
+				<div id="svnitlogo">
 				</div>
-				<div id="navigationpanel">
-					<span>Home</span>
-					<span>Events</span><!-- place event archives here as well -->
-					<span>Team</span>
-					<span>About</span>
-					<span>Contact</span>
+				<div id="acmtext">
+					NIT Surat ACM Chapter
+				</div>
+				<div id="acmlogo">
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="fullhr"></div>
+			<div id="headerblock" class="middle">
+				<ul id="navigationpanel">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Events</a></li><!-- place event archives here as well -->
+					<li><a href="#">Team</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
 				</div>
 			</div>
 			<div id="thecontent">

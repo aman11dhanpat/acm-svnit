@@ -1,86 +1,126 @@
 *{margin: 0;padding: 0}
 
-html{
-	width:100%;
-	height:auto;
-	border-top:10px solid #E7E7E7;
+body{
+	width: 100%;
+	height: auto;
+	border-top: 10px solid #E7E7E7;
 	font-family: ubuntu, sans-serif;
 }
 
 #thecontainer{
-	width:100%;
+	width: 100%;
 }
 
 #logohead{
-	width:796px;
-	padding: 10px 114px 10px 114px;
-	height:auto;
+	width: 800px;
+	padding: 10px 0;
+	height: auto;
 }
 
 #svnitlogo , #acmlogo{
-	height:100px;
-	width:100px;
-	float:left;
+	height: 100px;
+	width: 100px;
+	float: left;
 }
 
 #svnitlogo{
-	background:url('../img/svnitlogo.jpg');
+	background: url('../img/svnitlogo.jpg');
 }
 
 #acmlogo{
-	background:url('../img/acm-logo.jpg');
+	background: url('../img/acm-logo.jpg');
 }
 
 #acmtext{
-	color:#4FA1ED;
-	text-align:center;
-	position:relative;
+	color: #4FA1ED;
+	text-align: center;
 	font-weight: 400;
 	font-size: 50px;
-	padding:0px 25px 0px 25px;
+	padding: 0px 35px;
 	line-height: 100px;
-	float:left;
+	float: left;
 }
 
 #headerblock{
-	width:796px;
+	width: 800px;
 }
 
 #navigationpanel
 {
-	margin-top:10px;
-	list-style-type:none;
+	list-style-type: none;
 }
 #navigationpanel li{
-	padding:17px 20px 10px 20px;
-	display:inline;
+	width: 155px;
+	text-align: center;
+	display: inline-block;
 }
 
 #navigationpanel li a{
-	font-size:25px;
-	color:#A7A7A7;
-	text-decoration:none;
+	font-size: 25px;
+	color: #A7A7A7;
+	text-decoration: none;
 }
 
 #navigationpanel li.active{
-	background:#EEEEEE;
-	border-top:3px solid orange;
+	background: #EEEEEE;
+	border-top: 3px solid #4FA1ED;
 }
+
+#navigationpanel li:hover{
+	background: #EEEEEE;
+	border-top: 3px solid orange;
+}
+
+#thefooter{
+	width: 100%;
+	position: relative;
+	background: #EEEEEE;
+}
+
+#fb , #t, #gp {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+
+#fb{
+	background: url('../img/favicon_fb_unattended.png');
+}
+
+#t{
+	background: url('../img/favicon_t_unattended.png');
+}
+
+#gp{
+	background: url('../img/favicon_gp_unattended.png');
+}
+/*
+#fb:hover{
+	background: url('../img/favicon_fb_attended.png');
+}
+
+#t:hover{
+	background: url('../img/favicon_t_attended.png');
+}
+
+#gp:hover{
+	background: url('../img/favicon_gp_attended.png');
+}*/
 
 .clear{
 	clear:both;
 }
 
 .fullhr{
-	position:absolute;
-	left:0;
-	right:0;
-	height:0px;
-	border:1px solid #E7E7E7;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 0px;
+	border: 1px solid #E7E7E7;
 }
 
 .middle{
-	margin-left:auto;
-	margin-right:auto;
-	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }

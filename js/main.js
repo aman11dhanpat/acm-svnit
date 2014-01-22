@@ -2,6 +2,7 @@
 'use strict';
 
 //window.onload = positionTheContainer; 				//not needed anymore
+window.onload = populate(0);
 //window.addEventListener('resize', positionTheContainer);
 window.addEventListener('keydown',function(event){
 	event = event || e;
@@ -22,8 +23,9 @@ window.addEventListener('keydown',function(event){
 		theContainer.style.cssText = "left: 50%;margin-left: -450px";
 }*/
 
-//more JS goes here
-//and here :p
+function populate(ele_id) {
+	applyClassExcept(document.getElementById(ele_id), 'active', 'navitems', document.getElementsByClassName('navitems'));
+}
 
 function killMyChildren(ele){								//don't sue me for this name
 	var children = ele.childNodes;
